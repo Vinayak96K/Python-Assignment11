@@ -37,7 +37,7 @@ def main():
         print("Improper argumnets! ")
 
 if __name__ == "__main__":
-    starttime = time.clock()
+    starttime = time.time()
     main()
-    endtime = time.clock()
+    endtime = time.time()
     print("The script executed in {} seconds.".format(endtime-starttime))
